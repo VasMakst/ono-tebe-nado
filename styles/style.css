@@ -1,1 +1,258 @@
-/* место для вашего кода */
+
+.header {
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    align-items: center;
+    margin: 92px 24px 96px;
+    padding: 0 26px;
+}
+
+.header .menu {
+    display: flex;
+    gap: 32px;
+    list-style: circle;
+}
+
+.menu-link {
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.menu_active_item {
+    list-style: none;
+}
+
+.main_page_link {
+    text-decoration: none;
+}
+
+.header_logo {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.header_logo-image {
+    display: block;
+    height: 105px;
+    width: 148px;
+}
+
+.contacts {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 136%;
+    width: 240px;
+}
+
+.cover {
+    display: block;
+    padding: 165px 50px 0;
+    height: 757px;
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/images/cover.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.title_block {
+    display: block;
+    width: 1000px;
+    margin-bottom: 135px;
+}
+
+.title_item {
+    display: block;
+    color: #fff;
+    font-size: 100px;
+    font-weight: 700;
+    line-height: 115%;
+    text-transform: uppercase;
+}
+
+.title_item-left {
+    text-align: left;
+}
+
+.title_item-center {
+    text-align: center;
+}
+
+.title_item-right {
+    text-align: right;
+}
+
+.letter-spacing-x1 {
+    letter-spacing: 25px;
+}
+
+.letter-spacing-x2 {
+    letter-spacing: 50px;
+}
+
+.cover_footer {
+    display: flex;
+    padding-left: 28px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cover_footer-subtitle {
+    color: #fff;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 127%;
+    word-spacing: 20px;
+    text-transform: uppercase;
+}
+
+.button-bet {
+    border-color: #fff;
+    border-style: solid;
+    color: #fff;
+    text-transform: uppercase;
+    background-color: rgba(255, 255, 255, 0);
+    width: 255px;
+    height: 50px;
+    font-size: 22px;
+    font-weight: 500;
+}
+
+.lots {
+    margin: 179px 24px 146px;
+}
+
+.lots_header {
+    font-size: 40px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-left: 40px;
+}
+
+.cards_block {
+    display: flex;
+    margin: 27px 0 30px;
+    gap: 25px;
+}
+
+.card {
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 334px;
+    height: 563px;
+    padding: 51px 40px 48px;
+    color:#fff;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+.card-image {
+    z-index: -2;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);    
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    /* filter: brightness(50%); */
+}
+
+.card-title {
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 120%;
+    text-decoration: underline;
+    text-transform: uppercase;
+    /* z-index: -1; */
+}
+
+.card-describe {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 120%;
+    /* z-index: -1; */
+}
+
+.lots-link {
+    color: #000;
+    font-size: 20px;
+    font-weight: 400;
+    text-transform: lowercase;
+    margin-left: 40px;
+}
+
+.about {
+    display: grid;
+    grid-template-columns: 360px 1fr;
+    grid-template-rows: 283px 312px;
+    grid-template-areas: 
+    "logo title"
+    ". description";
+    color: #000;
+}
+
+.about_logo {
+    display: flex;
+    grid-area: logo;
+    justify-content: center;
+    align-items: center;
+    /* height: 240px;
+    width: 240px; */
+    background: radial-gradient(circle at center, black 50%, transparent 50%);
+}
+
+.about_logo-image {
+    display: block;
+    width: 141.54px;
+    height: 112.55px;
+}
+
+.about_title {
+    grid-area: title;
+    font-size: 40px;
+    font-weight: 700;
+    text-transform: uppercase;
+    justify-self: left;
+    align-self: center;
+}
+
+.about_discription {
+    grid-area: description;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 120%;
+}
+
+.footer {
+    padding: 180px 50px 88px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.footer .menu {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer_links {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    column-gap: 48px;
+}
+
+.sm_icon {
+    width: 48px;
+    height: 48px;
+}
+
+.sm_link {
+    list-style: none;
+}
