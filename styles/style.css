@@ -62,7 +62,7 @@
       rgba(0, 0, 0, 0.5)
     ),
     url(/images/cover.jpg); */
-  background-image: url(/images/cover.jpg);
+  background-image: url(../images/cover.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -188,21 +188,21 @@
 }
 
 .card-film {
-  background-image: url(/images/card-lot-01.jpg);
+  background-image: url(../images/card-lot-01.jpg);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
 }
 
 .card-book {
-  background-image: url(/images/card-lot-02.jpg);
+  background-image: url(../images/card-lot-02.jpg);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
 }
 
 .card-picture {
-  background-image: url(/images/card-lot-03.jpg);
+  background-image: url(../images/card-lot-03.jpg);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
